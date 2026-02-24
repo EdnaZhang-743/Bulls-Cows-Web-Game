@@ -60,34 +60,3 @@ Using a local server can avoid browser restrictions in some setups.
 ```bash
 # from the project root directory
 python -m http.server 8000
-
----
-Then open: http://localhost:8000
-
----
-How to Play
-
-Type letters on your keyboard or click the on-screen keys.
-
-Press Enter to submit a guess (only after entering 6 letters).
-
-Press Backspace to remove the last letter.
-
-The board and keyboard will update colors after each guess.
-
-Your progress is saved automatically.
-
----
-Notes
-
-The game stores progress in the browser via localStorage.
-
-Clearing browser data will reset your game.
-
-This project is intended for learning and portfolio demonstration.
-
-
----
-License
-
-This project is for educational and demonstration purposes.
