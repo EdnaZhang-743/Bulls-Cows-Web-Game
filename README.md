@@ -41,6 +41,19 @@ This project uses the public word API from **words.trex-sandwich.com**:
 
 ---
 
+## How to Play
+Type letters on your keyboard or click the on-screen keys.
+
+Press Enter to submit a guess (only after entering 6 letters).
+
+Press Backspace to remove the last letter.
+
+The board and keyboard will update colors after each guess.
+
+Your progress is saved automatically.
+
+---
+
 ## How to Run (Local)
 
 ### Option 1: Open directly (quick start)
