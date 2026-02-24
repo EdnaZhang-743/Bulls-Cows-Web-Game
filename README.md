@@ -60,7 +60,7 @@ Using a local server can avoid browser restrictions in some setups.
 ```bash
 # from the project root directory
 python -m http.server 8000
----
+
 
 ## Features
 - Type letters on your keyboard or click the on-screen keys.
