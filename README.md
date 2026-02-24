@@ -1,3 +1,4 @@
+```markdown
 # 6-Letter Word Game (Wordle-style) + Java Spring Boot Backend
 
 A learning and portfolio project that includes:
@@ -32,25 +33,22 @@ A learning and portfolio project that includes:
 
 ## Project Structure
 
-
+```text
 .
-├── backend/ # Java Spring Boot (Gradle) (if you use folders)
-├── frontend/ # index.html, css, js files (if you use folders)
+├── backend/   # Java Spring Boot (Gradle) (if you use folders)
+├── frontend/  # index.html, css, js files (if you use folders)
 └── README.md
 
+If your repo is not separated into backend/ and frontend/, you can remove or adjust this section.
 
-> If your repo is not separated into `backend/` and `frontend/`, you can remove or adjust this section.
+Backend: Java Spring Boot (Gradle)
+Prerequisites
 
----
+Java 17 (JDK 17)
 
-## Backend: Java Spring Boot (Gradle)
+(Recommended) IntelliJ IDEA / VS Code
 
-### Prerequisites
-- **Java 17** (JDK 17)
-- (Recommended) **IntelliJ IDEA** / **VS Code**
-
-### Check Java Version
-```bash
+Check Java Version
 java -version
 How to Run
 Option 1: Run with Gradle Wrapper (Recommended)
@@ -97,8 +95,6 @@ API Testing (Optional)
 
 You can test endpoints using a browser (GET), Postman, or curl.
 
-Example:
-
 curl http://localhost:8080
 Troubleshooting
 Port 8080 already in use
@@ -107,11 +103,11 @@ Stop the process using port 8080, or run on a different port (example 8081):
 
 Windows
 
-.\gradlew.bat bootRun --args='--server.port=8081'
+.\gradlew.bat bootRun --args="--server.port=8081"
 
 macOS / Linux
 
-./gradlew bootRun --args='--server.port=8081'
+./gradlew bootRun --args="--server.port=8081"
 Gradle permission issue (macOS/Linux)
 chmod +x gradlew
 Frontend: 6-Letter Word Game (Wordle-style)
@@ -186,7 +182,6 @@ Right-click index.html → Open with Live Server.
 
 Using Python
 
-# from the project root directory
 python -m http.server 8000
 
 Then open:
