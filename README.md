@@ -60,3 +60,33 @@ Using a local server can avoid browser restrictions in some setups.
 ```bash
 # from the project root directory
 python -m http.server 8000
+---
+
+## Features
+- Type letters on your keyboard or click the on-screen keys.
+- Press Enter to submit a guess (only after entering 6 letters).
+- Press Backspace to remove the last letter.
+- The board and keyboard will update colors after each guess.
+- Your progress is saved automatically.
+
+---
+
+## Tech Stack
+- **HTML5**
+- **CSS3** (Flexbox layout)
+- **JavaScript (Vanilla)**: DOM manipulation, events
+- **Fetch API** for REST requests
+- **localStorage** for persistence
+
+---
+
+## API Used
+This project uses the public word API from **words.trex-sandwich.com**:
+
+- Random 6-letter word (target word):  
+  `https://words.trex-sandwich.com/?count=1&length=6`
+
+- Validate a guessed word (example):  
+  `https://words.trex-sandwich.com/<word>`
+
+> Note: An internet connection is required to fetch and validate words. If the API is unavailable, gameplay may be affected.
