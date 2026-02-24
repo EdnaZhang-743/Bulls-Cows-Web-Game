@@ -1,20 +1,58 @@
-# README
+# 6-Letter Word Game (Wordle-style) + Java Spring Boot Backend
 
-This repository includes:
-1) A **Java Spring Boot** backend application (Gradle)  
-2) A **6-Letter Word Game (Wordle-style)** frontend (HTML/CSS/JavaScript)
+A learning and portfolio project that includes:
+1. A **Java Spring Boot** backend application (**Gradle**)
+2. A **6-Letter Word Game (Wordle-style)** frontend (**HTML/CSS/JavaScript**)
+
+> **Note:** Clearing browser data will reset your game progress (stored via `localStorage`).
 
 ---
 
-1) Backend: Java Spring Boot (Gradle)
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Backend: Java Spring Boot (Gradle)](#backend-java-spring-boot-gradle)
+  - [Prerequisites](#prerequisites)
+  - [Check Java Version](#check-java-version)
+  - [How to Run](#how-to-run)
+    - [Option 1: Run with Gradle Wrapper (Recommended)](#option-1-run-with-gradle-wrapper-recommended)
+    - [Option 2: Build a JAR and Run](#option-2-build-a-jar-and-run)
+  - [Stopping the Server](#stopping-the-server)
+  - [API Testing (Optional)](#api-testing-optional)
+  - [Troubleshooting](#troubleshooting)
+- [Frontend: 6-Letter Word Game (Wordle-style)](#frontend-6-letter-word-game-wordle-style)
+  - [Features](#features)
+  - [Tech Stack (Frontend)](#tech-stack-frontend)
+  - [API Used (Word API)](#api-used-word-api)
+  - [How to Run (Frontend Local)](#how-to-run-frontend-local)
+  - [How to Play](#how-to-play)
+  - [Notes](#notes)
+- [License](#license)
 
-Prerequisites
+---
+
+## Project Structure
+
+
+.
+├── backend/ # Java Spring Boot (Gradle) (if you use folders)
+├── frontend/ # index.html, css, js files (if you use folders)
+└── README.md
+
+
+> If your repo is not separated into `backend/` and `frontend/`, you can remove or adjust this section.
+
+---
+
+## Backend: Java Spring Boot (Gradle)
+
+### Prerequisites
 - **Java 17** (JDK 17)
-- (Recommended) IntelliJ IDEA / VS Code
+- (Recommended) **IntelliJ IDEA** / **VS Code**
 
-Check Java version:
+### Check Java Version
+```bash
 java -version
-How to Run (Java / Spring Boot)
+How to Run
 Option 1: Run with Gradle Wrapper (Recommended)
 
 From the project root directory:
@@ -31,7 +69,7 @@ If startup is successful, you should see logs similar to:
 
 Tomcat started on port 8080 (http)
 
-Then open in your browser:
+Then open:
 
 http://localhost:8080
 
@@ -63,7 +101,6 @@ Example:
 
 curl http://localhost:8080
 Troubleshooting
-
 Port 8080 already in use
 
 Stop the process using port 8080, or run on a different port (example 8081):
@@ -75,14 +112,14 @@ Windows
 macOS / Linux
 
 ./gradlew bootRun --args='--server.port=8081'
-
 Gradle permission issue (macOS/Linux)
-
 chmod +x gradlew
-2) Frontend: 6-Letter Word Game (Wordle-style)
+Frontend: 6-Letter Word Game (Wordle-style)
 
 A lightweight Wordle-style guessing game built with vanilla HTML/CSS/JavaScript.
-Guess the hidden 6-letter word within a limited number of attempts. The game supports both physical keyboard input and an on-screen keyboard, and saves progress using localStorage.
+
+Guess the hidden 6-letter word within a limited number of attempts.
+The game supports physical keyboard input and an on-screen keyboard, and saves progress using localStorage.
 
 Features
 
@@ -114,7 +151,7 @@ Fetch API for REST requests
 
 localStorage for persistence
 
-API Used (Frontend Word API)
+API Used (Word API)
 
 This game uses the public word API from words.trex-sandwich.com:
 
@@ -122,9 +159,11 @@ Random 6-letter word (target word):
 https://words.trex-sandwich.com/?count=1&length=6
 
 Validate a guessed word (example):
-https://words.trex-sandwich.com/<word>
+https://words.trex-sandwich.com/
+<word>
 
-Note: An internet connection is required to fetch and validate words. If the API is unavailable, gameplay may be affected.
+Note: An internet connection is required to fetch and validate words.
+If the API is unavailable, gameplay may be affected.
 
 How to Run (Frontend Local)
 Option 1: Open directly (quick start)
@@ -133,7 +172,7 @@ Download or clone this repository.
 
 Open index.html in your browser.
 
-✅ This works in most browsers.
+✅ Works in most browsers.
 
 Option 2: Run with a local server (recommended)
 
@@ -150,7 +189,9 @@ Using Python
 # from the project root directory
 python -m http.server 8000
 
-Then open http://localhost:8000 in your browser.
+Then open:
+
+http://localhost:8000
 
 How to Play
 
@@ -170,8 +211,6 @@ The game stores progress in the browser via localStorage.
 
 Clearing browser data will reset your game.
 
-This project is intended for learning and portfolio demonstration.
-
 License
 
-This project is for educational and demonstration purposes.
+This project is intended for learning and portfolio demonstration.
