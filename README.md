@@ -1,90 +1,153 @@
-# Frontend: 6-Letter Word Game (Wordle-style)
+# Bulls & Cows Web Game (Full Stack)
 
-A lightweight Wordle-style guessing game built with vanilla HTML/CSS/JavaScript.
+A full-stack **Bulls & Cows** single-player web game.
 
-- Guess the hidden **6-letter word** within a limited number of attempts.
-- Supports **physical keyboard input** and an **on-screen keyboard**.
-- Saves progress using **localStorage**.
+- **Backend:** Java Spring Boot (Gradle) REST API
+- **Frontend:** Next.js (TypeScript) web UI
+
+The frontend calls the Java API to create a new game and validate guesses.
 
 ---
 
 ## Features
 
-- Wordle-style **6-letter guessing gameplay** with instant feedback:
-  - **Correct**: right letter, right position  
-  - **Present**: letter exists, wrong position  
-  - **Absent**: letter not in the word
-- Supports **physical keyboard** and **on-screen keyboard**
-- Only allows submission when **6 letters** are entered
-- Validates guesses using an **online dictionary API**
-- Automatically saves game progress via **localStorage** (refresh won’t lose the current game)
+### Gameplay
+- Bulls & Cows rules (4-digit secret code, **no repeated digits**)
+  - **Bulls** = correct digit in the correct position
+  - **Cows** = correct digit in the wrong position
+- Multiple difficulty levels (e.g., easy/medium/hard)
+- Limited rounds per game (UI shows current round and max rounds)
+- Game history list (each guess with bulls/cows feedback)
+- “New Game” button to reset and start again
+
+### Full-stack integration
+- Frontend communicates with backend via REST API
+- Environment-based API base URL (local development)
 
 ---
 
-## Tech Stack (Frontend)
+## Prerequisites
 
-- **HTML5**
-- **CSS3** (Flexbox)
-- **JavaScript (Vanilla)**: DOM manipulation, events
-- **Fetch API** for REST requests
-- **localStorage** for persistence
+### Backend
+- **Java 17** (JDK 17)
 
----
-
-## API Used (Word API)
-
-This game uses the public word API from `words.trex-sandwich.com`.
-
-### Random 6-letter word (target word)
-https://words.trex-sandwich.com/?count=1&length=6
-
-### Validate a guessed word (example)
-https://words.trex-sandwich.com/<word>
-
-**Note:** An internet connection is required to fetch and validate words.  
-If the API is unavailable, gameplay may be affected.
-
----
-
-## How to Run (Frontend Local)
-
-### Option 1: Open directly (quick start)
-
-1. Download or clone this repository.
-2. Open `index.html` in your browser.
-
-✅ Works in most browsers.
-
-### Option 2: Run with a local server (recommended)
-
-Using a local server can avoid browser restrictions in some setups.
-
-#### Using VS Code Live Server
-
-1. Install the **Live Server** extension in VS Code.
-2. Right-click `index.html` → **Open with Live Server**.
-
-#### Using Python
-
+Check:
 ```bash
-python -m http.server 8000
+java -version
 ```
-Then open:
-http://localhost:8000
+### Frontend
+- **Node.js 18+** and npm
+Check:
+```bash
+node -v
+npm -v
+```
+## Running Locally (Development)
+
+You need two terminals: one for backend, one for frontend.
+
+### 1) Start Backend (Spring Boot)
+
+Open a terminal in the project root (where build.gradle is):
+
+Windows (PowerShell / CMD)
+```bash
+.\gradlew.bat clean bootRun
+```
+macOS / Linux
+```bash
+./gradlew clean bootRun
+```
+Backend default URL (example):
+http://localhost:8080
+
+If your backend runs on a different port, update the frontend env config accordingly.
+
+### 2) Configure Frontend API Base URL
+
+Create or edit this file:
+
+frontend/.env.local
+
+Example:
+```bash
+NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
+```
+After changing .env.local, you must restart the frontend dev server.
+
+### 3) Start Frontend (Next.js)
+
+Open another terminal:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Frontend default URL:
+http://localhost:3000
 
 ## How to Play
 
-1. Type letters on your keyboard or click the on-screen keys.
-2. Press Enter to submit a guess (only after entering 6 letters).
-3. Press Backspace to remove the last letter.
-4. The board and keyboard will update colors after each guess.
-5. Your progress is saved automatically.
+### 1.Open the frontend in your browser:
+http://localhost:3000
 
-## How to Play
-The game stores progress in the browser via localStorage.
-Clearing browser data will reset your game.
+### 2.Click New Game to start.
+
+### 3.Enter a 4-digit guess (no repeated digits).
+
+### 4.Press Guess to submit.
+
+### 5.The game shows:
+
+- Bulls and Cows
+- current Round
+- full History of guesses
+
+### 6.Win by getting 4 bulls within the allowed rounds.
+
+## Troubleshooting
+
+### Frontend starts but shows a warning about benchmarking file I/O
+
+You may see a message like:
+- Failed to benchmark file I/O ... (os error 3)
+
+If the UI loads normally, this is usually a non-blocking warning on Windows and can be ignored.
+
+If you want to avoid Turbopack in dev mode, you can run:
+```bash
+cd frontend
+npx next dev --no-turbo
+```
+### Frontend cannot call backend (API errors)
+
+- Ensure backend is running on the expected port (commonly 8080)
+- Ensure frontend/.env.local points to the correct backend URL:
+- - NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
+- Restart the frontend dev server after changing .env.local
+
+### Port already in use
+
+If 3000 or 8080 is in use, stop the existing process or change the port:
+
+Frontend: set PORT before running (PowerShell example)
+```bash
+$env:PORT=3001; npm run dev
+```
+
+## Build (Optional)
+### Backend build
+```bash
+.\gradlew.bat clean build
+```
+### Frontend production build
+```bash
+cd frontend
+npm run build
+npm run start
+```
 
 ## License
 
 This project is intended for learning and portfolio demonstration.
-If you want to add an official license, create a LICENSE file (e.g., MIT) and update this section accordingly.
+Add a LICENSE file (e.g., MIT) if you want an official open-source license.
