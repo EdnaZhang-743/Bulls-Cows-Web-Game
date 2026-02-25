@@ -1,0 +1,87 @@
+@startuml
+
+
+interface Player {
+    + getSecretCode(): String
+    + getGuessCode(): String
+    + compareGuess(guess: String, secretCode: String): int[]
+    + feedback(guess: String, result: int[]): void
+}
+
+class EasyAIPlayer implements Player {
+    + getSecretCode(): String
+    + getGuessCode(): String
+    + compareGuess(guess: String, secretCode: String): int[]
+    + feedback(guess: String, result: int[]): void
+}
+
+class UserPlayer implements Player {
+    - input: String
+    + getSecretCode(): String
+    + getGuessCode(): String
+    + readInput(): String
+    + compareGuess(guess: String, secretCode: String): int[]
+    + feedback(guess: String, result: int[]): void
+}
+
+class HardAIPlayer implements Player {
+    - filteredCodes: List<String>
+    - codes: List<String>
+    - possibleCodes: List<String>
+    - bulls: int
+    - cows: int
+    + getSecretCode(): String
+    + getGuessCode(): String
+    + compareGuess(guess: String, secretCode: String): int[]
+    + feedback(guess: String, result: int[]): void
+}
+
+class MediumAIPlayer implements Player {
+    - guessCode: List<String>
+    - guessList: String
+    + getSecretCode(): String
+    + getGuessCode(): String
+    + compareGuess(guess: String, secretCode: String): int[]
+    + feedback(guess: String, result: int[]): void
+}
+
+class FilePlayer implements Player {
+    - line: String
+    - filename: String
+    - nextGuess: String
+    - guesses: List<String>
+    + getSecretCode(): String
+    + getGuessCode(): String
+    + loadCodesFromFile(): void
+    + compareGuess(guess: String, secretCode: String): int[]
+    + feedback(guess: String, result: int[]): void
+}
+
+class GameControl {
+    - rounds: int
+    - choice: String
+    - guess1: String
+    - guess2: String
+    - result1: int[]
+    - result2: int[]
+    + start(): void
+    + chooseCompetitor(): Player
+}
+
+class Keyboard {
+    - input: String
+    + readInput(): String
+}
+
+class CodeHelpers {
+    + compareTo(guess: String, secretCode: String): int[]
+    + getSecretCode(): String
+}
+
+class GameLogger {
+    - events: List<String>
+    + addEvent(guess: String, result: int[], player: Player): void
+    + save(path: String): void
+}
+
+@enduml

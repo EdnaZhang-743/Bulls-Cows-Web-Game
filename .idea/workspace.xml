@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53af1c54-0214-494e-b553-c0be32e5b2c8" name="Changes" comment="Finally, I created a UML diagram called final-class, which contains all the classes and methods I created in this project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/CodeHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/CodeHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/FilePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/FilePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/GameControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/GameControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/HardAIPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/HardAIPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/UserPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/UserPlayer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="industry-project-a" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qGrVut0VYgM610pz57dp6b85U3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GameControl.executor": "Run",
+    "Application.UserPlayer.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Gradle.industry-project-a [:project.EasyAIPlayer.main()].executor": "Run",
+    "Gradle.industry-project-a [:project.FilePlayer.main()].executor": "Run",
+    "Gradle.industry-project-a [:project.GameControl.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/11926/IdeaProjects/industry-final-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\11926\IdeaProjects\industry-project-a\src\main\java\project" />
+      <recent name="C:\Users\11926\IdeaProjects\industry-project-a\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\11926\IdeaProjects\industry-project-a\src\main\java\project" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="project.CodeHelpers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GameControl">
+    <configuration name="EasyAIPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.EasyAIPlayer" />
+      <module name="industry-project-a.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilePlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.FilePlayer" />
+      <module name="industry-project-a.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.GameControl" />
+      <module name="industry-project-a.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.UserPlayer" />
+      <module name="industry-project-a.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="demo" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameControl" />
+        <item itemvalue="Application.UserPlayer" />
+        <item itemvalue="Application.FilePlayer" />
+        <item itemvalue="Application.EasyAIPlayer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53af1c54-0214-494e-b553-c0be32e5b2c8" name="Changes" comment="" />
+      <created>1734299780921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734299780921</updated>
+      <workItem from="1734299782802" duration="160000" />
+      <workItem from="1734299955872" duration="56901000" />
+      <workItem from="1734517965673" duration="5853000" />
+      <workItem from="1734865847769" duration="152000" />
+      <workItem from="1736116581967" duration="152000" />
+      <workItem from="1736912802453" duration="125000" />
+      <workItem from="1737255522029" duration="40000" />
+      <workItem from="1737257169620" duration="3418000" />
+    </task>
+    <task id="LOCAL-00001" summary="At the beginning of the project, I designed a UML diagram, which is stored in main/java/project/initial-class.&#10;&#10;My design idea mainly consists of four classes: EasyAIPlayer, HardAIPlayer, UserPlayer, and GameControl, among which EasyAIPlayer, HardAIPlayer, and UserPlayer inherit from Player.&#10;&#10;EasyAIPlayer, HardAIPlayer, and UserPlayer represent three different players. Each player will have a randomly generated four-digit password, and they will all enter password guesses for other players. You can freely choose your opponent, and calculate the number of balls and cows based on the guess results to determine the outcome.">
+      <option name="closed" value="true" />
+      <created>1734341841199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734341841199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="At the beginning of the project, I designed a UML diagram, which is stored in main/java/project/initial-class.&#10;&#10;My design idea mainly consists of four classes: EasyAIPlayer, HardAIPlayer, UserPlayer, and GameControl, among which EasyAIPlayer, HardAIPlayer, and UserPlayer inherit from Player.&#10;&#10;EasyAIPlayer, HardAIPlayer, and UserPlayer represent three different players. Each player will have a randomly generated four-digit password, and they will all enter password guesses for other players. You can freely choose your opponent, and calculate the number of balls and cows based on the guess results to determine the outcome.">
+      <option name="closed" value="true" />
+      <created>1734341871505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734341871505</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Task One: Beginning with an Easy AI&#10;&#10;Begin by implementing a simple computer player that guesses random valid codes with no consideration for strategy. This player should be able to provide a secret code on request (this&#10;should be set once, and remain the same throughout the game), and also provide random guesses when required. Remember that both the secret code and any guesses must be valid codes – 4 digits long with no repeating digits.&#10;&#10;I created the getSecretCode() function in the EasyAIPlayer class to generate a code with four digits that are not equal.">
+      <option name="closed" value="true" />
+      <created>1734342430637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734342430637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task One: Beginning with an Easy AI&#10;&#10;Define getSecretCode(), getGuessCode() and compareGuess(String guess, String secretCode) functions in the Player interface and implement them in EasyAIPlayer, MediumAIPlayer, HardAIPlayer, GameControl and other classes">
+      <option name="closed" value="true" />
+      <created>1734391112570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734391112570</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Task One: Beginning with an Easy AI&#10;&#10;Implement the getSecretCode() and getGuessCode() functions in the Player interface in the EasyAiPlayer class. Enable EasyAIPlayer to provide passwords and random guesses.&#10;&#10;And make sure the password and guess are both valid codes – 4 digits long with no repeating digits.">
+      <option name="closed" value="true" />
+      <created>1734391700994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734391700994</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task One: Beginning with an Easy AI&#10;&#10;Create a Getsecretgode class and create a getSecretCode() function in it to ensure a valid password is generated————4 digits long with no repeating digits, and apply this method to other interface and classes.">
+      <option name="closed" value="true" />
+      <created>1734392087188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734392087188</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task Two: Starting the battle&#10;&#10;Create the start() function in the GameControl class to implement the following game(both players are EasyAIPlayer):&#10;&#10;The game should then request each of the players to generate their own secret code – these should be validated to ensure that they are valid codes. The game should then begin, asking the first player for a guess, then testing this against the second player’s secret code, before displaying the result to the screen. The roles will then reverse, with the second player testing their guess against that of the first player. This should continue for 7 rounds, or until a player correctly guesses the opponent’s code, whichever happens first.&#10;&#10;The game ends when either side successfully guesses the other’s code (resulting in a win for that side), or when each side has made seven incorrect guesses (resulting in a draw).">
+      <option name="closed" value="true" />
+      <created>1734401998204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734401998204</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Define feedback(String guess, int[] result) in the Player interface">
+      <option name="closed" value="true" />
+      <created>1734423044713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734423044713</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Rename the Getsecretgode class to CodeHelpers, and add the compareTo(String guess, String secretCode) method to the class. The function of this method is to compare guess and secret code and return the correct number and position.">
+      <option name="closed" value="true" />
+      <created>1734423630523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734423630523</updated>
+    </task>
+    <task id="LOCAL-00010" summary="The return value of getGuessCode() in EasyAIPlayer class is renamed to CodeHelpers.getSecretCode()">
+      <option name="closed" value="true" />
+      <created>1734425031132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734425031132</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Task Three: Player 2 - Medium AI&#10;&#10;Modify your code to introduce a second computer player, the Medium AI that is a slight improvement over the Easy AI. This player will also choose guess codes at random, but it should also remember guesses it has made in the past, and it should not reuse a previous guess. Update your game code to support using this new player, allowing the player to select this as one of the opponents in the game.&#10;&#10;Define the getGuessCode() method in the MediumAIPlayer class to ensure that guesses are not repeated.">
+      <option name="closed" value="true" />
+      <created>1734425876691</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734425876691</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Define the chooseCompetitor() function in the GameControl class. Allows players to choose their own opponents in the game">
+      <option name="closed" value="true" />
+      <created>1734427193927</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1734427193927</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Task Five: Hard AI&#10;&#10;Update your code to introduce a third AI player – the hard AI. This computer player is more sophisticated than the others and uses a strategy to improve its guesses to approach the solution&#10;rather than just randomly guessing. There are several strategies that could be used here, and you are welcome to implement any of them, but we have provided a possible strategy for implementing&#10;the hard AI below. Once completed, update your game code so that the Hard AI can be chosen as an opponent in the game. &#10;&#10;Define the generateAllCodes() method in the HardAIPlayer class to create a list containing all possible functions.&#10;&#10;Define the feedback(String guess, int[] result) method to update the code list.&#10;&#10;Define the compareCodes(String code, String guess) method to return the number of cows and bulls.">
+      <option name="closed" value="true" />
+      <created>1734433315264</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734433315264</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Task Six: Reading Guesses from a File&#10;&#10;Further modify your code to introduce a new type of player, one that reads its secret code and guesses from a predefined file.&#10;When selecting this sort of player, the user should be asked to enter a filename. If the player enters an invalid filename, they should be re-prompted until they enter the name of a file that&#10;actually exists. This file should then be read and interpreted as a text file, where each line contains a separate code. For example, a sample file input.txt may contain the following text:&#10;You should not trust that this file only contains valid codes and should check each code that you encounter. The first valid code in this file should be used as the secret code for the player. All subsequent codes should be used as guesses throughout the game. Once the file has been read, then the game should proceed as normal. When a guess is requested from the player, the next valid code from the file should be supplied. If there are no more presupplied codes (for example, if the player needs to provide their fifth guess but the file only contains four codes), then the additional codes should be randomly generated as the Easy AI does. Once completed, update your game code so that this new variety of player can be chosen as an opponent.&#10;&#10;I create a FilePlayer class and define the loadCodesFromFile() method in it to load the code from the file and make sure it is valid. Add the input.txt file to match the test.">
+      <option name="closed" value="true" />
+      <created>1734479622995</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734479622995</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Task Four: Interactive play&#10;&#10;Computers playing on their own isn’t terribly fun, so update your game to include an interactive human player. This player is controlled by a human and will prompt the user to enter the initial secret code, and also all of the guesses that are made throughout the game. As humans are fallible, you need to ensure that any code the user provides is valid, and if it isn’t, the user should be re-prompted to provide a valid guess as many times as needed before using the code. Update your game code to allow your new interactive player to be one of the opponents. Unlike with computer players, your game can only have a single human player. You should support computer vs computer or computer vs human, but selecting human vs human should not be allowed.&#10;&#10;Create a UserPlayer class to introduce human players, and introduce the Keyboard.readInput() method to allow the user to enter a guess value, and ensure that the guess value entered is valid in getGuessCode()">
+      <option name="closed" value="true" />
+      <created>1734486038799</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734486038799</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Define the compareGuess(String guess, String secretCode) method in the player interface to compare guess and secret">
+      <option name="closed" value="true" />
+      <created>1734486386741</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734486386741</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Task Seven: Saving to a File&#10;&#10;Finally, update you game code so that, when the game ends (win, lose, or draw), the user is asked if they wish to save the results to a text file. If they do, then should be prompted to enter a filename. The game should then save the following information to the given file:&#10;• The secret code for each of the players&#10;• Each guess that was made, in the same order as occurred during the game, along with the result of that guess (i.e. how many bulls &amp; cows it got)&#10;• The identity of the winner (or a message stating that the game was a draw) The data must be readable when opened in a standard text editor. An example results file is given in figure four, though exactly how your file is organized is up to you.&#10;&#10;Create class GameLogger and define GameLogger(Player p1, String secretCode1, Player p2, String secretCode2), addEvent(String guess, int[] result, Player player) and save(String path) methods in it to implement all results that will be generated Save in a file, create testFile as a test file, and all generated results will be saved in testFile.">
+      <option name="closed" value="true" />
+      <created>1734486744392</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734486744392</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add the chooseCompetitor() method to the GameControl class so that players can choose their own opponents (please note that there can only be one human player, which means you can only choose user once).&#10;&#10;At the same time, add gl.save(path) in the main method, and ask whether you want to save the results before implementing the method. If so, save all results to the path file.">
+      <option name="closed" value="true" />
+      <created>1734487943617</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734487943617</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Finally, I created a UML diagram called final-class, which contains all the classes and methods I created in this project.">
+      <option name="closed" value="true" />
+      <created>1734582371927</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734582371927</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Finally, I created a UML diagram called final-class, which contains all the classes and methods I created in this project.">
+      <option name="closed" value="true" />
+      <created>1734609702564</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734609702564</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="At the beginning of the project, I designed a UML diagram, which is stored in main/java/project/initial-class.&#10;&#10;My design idea mainly consists of four classes: EasyAIPlayer, HardAIPlayer, UserPlayer, and GameControl, among which EasyAIPlayer, HardAIPlayer, and UserPlayer inherit from Player.&#10;&#10;EasyAIPlayer, HardAIPlayer, and UserPlayer represent three different players. Each player will have a randomly generated four-digit password, and they will all enter password guesses for other players. You can freely choose your opponent, and calculate the number of balls and cows based on the guess results to determine the outcome." />
+    <MESSAGE value="Task One: Beginning with an Easy AI&#10;&#10;Begin by implementing a simple computer player that guesses random valid codes with no consideration for strategy. This player should be able to provide a secret code on request (this&#10;should be set once, and remain the same throughout the game), and also provide random guesses when required. Remember that both the secret code and any guesses must be valid codes – 4 digits long with no repeating digits.&#10;&#10;I created the getSecretCode() function in the EasyAIPlayer class to generate a code with four digits that are not equal." />
+    <MESSAGE value="Task One: Beginning with an Easy AI&#10;&#10;Define getSecretCode(), getGuessCode() and compareGuess(String guess, String secretCode) functions in the Player interface and implement them in EasyAIPlayer, MediumAIPlayer, HardAIPlayer, GameControl and other classes" />
+    <MESSAGE value="Task One: Beginning with an Easy AI&#10;&#10;Implement the getSecretCode() and getGuessCode() functions in the Player interface in the EasyAiPlayer class. Enable EasyAIPlayer to provide passwords and random guesses.&#10;&#10;And make sure the password and guess are both valid codes – 4 digits long with no repeating digits." />
+    <MESSAGE value="Task One: Beginning with an Easy AI&#10;&#10;Create a Getsecretgode class and create a getSecretCode() function in it to ensure a valid password is generated————4 digits long with no repeating digits, and apply this method to other interface and classes." />
+    <MESSAGE value="Task Two: Starting the battle&#10;&#10;Create the start() function in the GameControl class to implement the following game(both players are EasyAIPlayer):&#10;&#10;The game should then request each of the players to generate their own secret code – these should be validated to ensure that they are valid codes. The game should then begin, asking the first player for a guess, then testing this against the second player’s secret code, before displaying the result to the screen. The roles will then reverse, with the second player testing their guess against that of the first player. This should continue for 7 rounds, or until a player correctly guesses the opponent’s code, whichever happens first.&#10;&#10;The game ends when either side successfully guesses the other’s code (resulting in a win for that side), or when each side has made seven incorrect guesses (resulting in a draw)." />
+    <MESSAGE value="Define feedback(String guess, int[] result) in the Player interface" />
+    <MESSAGE value="Rename the Getsecretgode class to CodeHelpers, and add the compareTo(String guess, String secretCode) method to the class. The function of this method is to compare guess and secret code and return the correct number and position." />
+    <MESSAGE value="The return value of getGuessCode() in EasyAIPlayer class is renamed to CodeHelpers.getSecretCode()" />
+    <MESSAGE value="Task Three: Player 2 - Medium AI&#10;&#10;Modify your code to introduce a second computer player, the Medium AI that is a slight improvement over the Easy AI. This player will also choose guess codes at random, but it should also remember guesses it has made in the past, and it should not reuse a previous guess. Update your game code to support using this new player, allowing the player to select this as one of the opponents in the game.&#10;&#10;Define the getGuessCode() method in the MediumAIPlayer class to ensure that guesses are not repeated." />
+    <MESSAGE value="Define the chooseCompetitor() function in the GameControl class. Allows players to choose their own opponents in the game" />
+    <MESSAGE value="Task Five: Hard AI&#10;&#10;Update your code to introduce a third AI player – the hard AI. This computer player is more sophisticated than the others and uses a strategy to improve its guesses to approach the solution&#10;rather than just randomly guessing. There are several strategies that could be used here, and you are welcome to implement any of them, but we have provided a possible strategy for implementing&#10;the hard AI below. Once completed, update your game code so that the Hard AI can be chosen as an opponent in the game. &#10;&#10;Define the generateAllCodes() method in the HardAIPlayer class to create a list containing all possible functions.&#10;&#10;Define the feedback(String guess, int[] result) method to update the code list.&#10;&#10;Define the compareCodes(String code, String guess) method to return the number of cows and bulls." />
+    <MESSAGE value="Task Six: Reading Guesses from a File&#10;&#10;Further modify your code to introduce a new type of player, one that reads its secret code and guesses from a predefined file.&#10;When selecting this sort of player, the user should be asked to enter a filename. If the player enters an invalid filename, they should be re-prompted until they enter the name of a file that&#10;actually exists. This file should then be read and interpreted as a text file, where each line contains a separate code. For example, a sample file input.txt may contain the following text:&#10;You should not trust that this file only contains valid codes and should check each code that you encounter. The first valid code in this file should be used as the secret code for the player. All subsequent codes should be used as guesses throughout the game. Once the file has been read, then the game should proceed as normal. When a guess is requested from the player, the next valid code from the file should be supplied. If there are no more presupplied codes (for example, if the player needs to provide their fifth guess but the file only contains four codes), then the additional codes should be randomly generated as the Easy AI does. Once completed, update your game code so that this new variety of player can be chosen as an opponent.&#10;&#10;I create a FilePlayer class and define the loadCodesFromFile() method in it to load the code from the file and make sure it is valid. Add the input.txt file to match the test." />
+    <MESSAGE value="Task Four: Interactive play&#10;&#10;Computers playing on their own isn’t terribly fun, so update your game to include an interactive human player. This player is controlled by a human and will prompt the user to enter the initial secret code, and also all of the guesses that are made throughout the game. As humans are fallible, you need to ensure that any code the user provides is valid, and if it isn’t, the user should be re-prompted to provide a valid guess as many times as needed before using the code. Update your game code to allow your new interactive player to be one of the opponents. Unlike with computer players, your game can only have a single human player. You should support computer vs computer or computer vs human, but selecting human vs human should not be allowed.&#10;&#10;Create a UserPlayer class to introduce human players, and introduce the Keyboard.readInput() method to allow the user to enter a guess value, and ensure that the guess value entered is valid in getGuessCode()" />
+    <MESSAGE value="Define the compareGuess(String guess, String secretCode) method in the player interface to compare guess and secret" />
+    <MESSAGE value="Task Seven: Saving to a File&#10;&#10;Finally, update you game code so that, when the game ends (win, lose, or draw), the user is asked if they wish to save the results to a text file. If they do, then should be prompted to enter a filename. The game should then save the following information to the given file:&#10;• The secret code for each of the players&#10;• Each guess that was made, in the same order as occurred during the game, along with the result of that guess (i.e. how many bulls &amp; cows it got)&#10;• The identity of the winner (or a message stating that the game was a draw) The data must be readable when opened in a standard text editor. An example results file is given in figure four, though exactly how your file is organized is up to you.&#10;&#10;Create class GameLogger and define GameLogger(Player p1, String secretCode1, Player p2, String secretCode2), addEvent(String guess, int[] result, Player player) and save(String path) methods in it to implement all results that will be generated Save in a file, create testFile as a test file, and all generated results will be saved in testFile." />
+    <MESSAGE value="Add the chooseCompetitor() method to the GameControl class so that players can choose their own opponents (please note that there can only be one human player, which means you can only choose user once).&#10;&#10;At the same time, add gl.save(path) in the main method, and ask whether you want to save the results before implementing the method. If so, save all results to the path file." />
+    <MESSAGE value="Finally, I created a UML diagram called final-class, which contains all the classes and methods I created in this project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally, I created a UML diagram called final-class, which contains all the classes and methods I created in this project." />
+  </component>
+</project>

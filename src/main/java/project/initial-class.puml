@@ -1,0 +1,36 @@
+@startuml
+
+class EasyAIPlayer implements  Player
+{
+ - name:String
+
+ + getSecretCode():String
+ + getGuessCode():String
+}
+
+class UserPlayer implements  Player
+{
+
+ + getSecretCode():String
+ + getGuessCode():String
+}
+'
+class HardAIPlayer implements  Player
+{
+ + getSecretCode():String
+ + getGuessCode():String
+}
+
+class GameControl
+{
+ + start():void
+ + calculateBallandCow(String a , String b):int[2]
+ + chooseCompetitor():Player
+}
+
+interface Player
+{
+ + getSecretCode():String
+ + getGuessCode():String
+}
+@enduml
