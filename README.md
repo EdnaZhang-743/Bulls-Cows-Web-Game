@@ -42,6 +42,8 @@ Check:
 node -v
 npm -v
 ```
+---
+
 ## Running Locally (Development)
 
 You need two terminals: one for backend, one for frontend.
@@ -86,6 +88,8 @@ npm run dev
 Frontend default URL:
 http://localhost:3000
 
+---
+
 ## How to Play
 
 ### 1. Open the frontend in your browser:
@@ -104,6 +108,8 @@ http://localhost:3000
 - full History of guesses
 
 ### 6.Win by getting 4 bulls within the allowed rounds.
+
+---
 
 ## Troubleshooting
 
@@ -135,6 +141,8 @@ Frontend: set PORT before running (PowerShell example)
 $env:PORT=3001; npm run dev
 ```
 
+---
+
 ## Build (Optional)
 ### Backend build
 ```bash
@@ -146,6 +154,8 @@ cd frontend
 npm run build
 npm run start
 ```
+
+---
 
 ## License
 
