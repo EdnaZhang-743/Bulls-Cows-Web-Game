@@ -88,16 +88,16 @@ http://localhost:3000
 
 ## How to Play
 
-### 1.Open the frontend in your browser:
+### 1. Open the frontend in your browser:
 http://localhost:3000
 
-### 2.Click New Game to start.
+### 2. Click New Game to start.
 
-### 3.Enter a 4-digit guess (no repeated digits).
+### 3. Enter a 4-digit guess (no repeated digits).
 
-### 4.Press Guess to submit.
+### 4. Press Guess to submit.
 
-### 5.The game shows:
+### 5. The game shows:
 
 - Bulls and Cows
 - current Round
@@ -123,7 +123,7 @@ npx next dev --no-turbo
 
 - Ensure backend is running on the expected port (commonly 8080)
 - Ensure frontend/.env.local points to the correct backend URL:
-- - NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
+NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
 - Restart the frontend dev server after changing .env.local
 
 ### Port already in use
